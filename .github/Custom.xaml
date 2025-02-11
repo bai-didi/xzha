@@ -1,0 +1,31 @@
+<local:MyCard Title="最新消息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="我们于2025年2月10开启了新之海启动器制作组" />
+        <!-- 可以添加更多消息项 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="快捷启动 新之海出品" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="哦你好，点击下面的MINECRAFT 新之海 可以启动新之海特供版但是不可以加入服务器" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="启动 Minecraft 新之海" EventType="启动游戏" EventData="新之海官定整合包（电脑特供版）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="点击下面的加入新之海服务器可以在启动游戏时自动加入新之海服务器" />
+        <local:MyButton Margin="0,4,0,0" Width="250" Height="35"
+                    Text="启动 1.20.1 并进入 新之海服务器" EventType="启动游戏" EventData="新之海官定整合包（电脑特供版）|新之海官定整合包（电脑特供版）" ToolTip="服务器 IP：gm.rainplay.cn:19139" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于我们" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,4,0,6" FontWeight="Bold"
+                    Text="如何加入新之海？" />
+      <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="点击下面的按钮即可加入我们" />
+        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="加入我们" EventType="打开网页" EventData="https://qm.qq.com/q/Gk8CvxGiKQ" />
+    </StackPanel>
+</local:MyCard>
